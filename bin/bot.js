@@ -20,6 +20,6 @@ require('../commands/weather')(bot);
 
 // register any custom listeners here
 require('../listeners/cheezburger')(bot);
-require('../listeners/joined')(bot);
+// require('../listeners/joined')(bot);
 
 bot.run();
